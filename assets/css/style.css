@@ -786,6 +786,45 @@ main {
 }
 
 
+/**
+ * #achievements
+ */
+
+.achievements {
+    margin-bottom: 15px;
+}
+
+.achievements-list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 15px;
+    margin: 0 -15px;
+    padding: 25px;
+    padding-bottom: 25px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    overscroll-behavior-inline: contain;
+    scroll-snap-type: inline mandatory;
+    scroll-padding-inline: 25px;
+}
+
+.achievements-item {
+    min-width: 50%;
+    scroll-snap-align: start;
+}
+
+.achievements-item img {
+    width: 100%;
+    filter: contrast();
+    transition: var(--transition-1);
+}
+
+.achievements-item img:hover {
+    filter: grayscale(0);
+}
+
+
 /*-----------------------------------*\
   #RESUME
 \*-----------------------------------*/
