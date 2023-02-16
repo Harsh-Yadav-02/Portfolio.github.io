@@ -1910,3 +1910,13 @@ textarea.form-input::-webkit-resizer {
         max-width: 700px;
     }
 }
+
+mark.yellow {
+    color: hsl(45, 100%, 72%);
+    background: none;
+}
+
+mark.blue {
+    color: #0000A0;
+    background: none;
+}
